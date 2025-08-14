@@ -1,0 +1,3 @@
+🤖 Human or Algorithm?
+As part of your company’s hiring team, you’ve helped implement an AI tool to screen resumes. It works fast, but you're noticing a pattern — most candidates from lesser-known colleges get filtered out. They may never get a chance to prove themselves.
+Reflective Question: Should data-driven tools decide human potential? What responsibility do you hold in fighting hidden bias?
