@@ -1,0 +1,69 @@
+.quiz-container {
+  width: 95%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 170, 0.15);
+  color: #fff;
+}
+
+.question-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.07);
+  border: 1px solid rgba(0, 255, 170, 0.1);
+  transition: transform 0.2s;
+}
+
+.question-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(0, 255, 170, 0.25);
+}
+
+.question-card h3 {
+  margin-bottom: 12px;
+  color: #00ffaa;
+  font-size: 1.3rem;
+}
+
+.question-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.question-card li {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.question-card li:hover {
+  background-color: rgba(0, 255, 170, 0.1);
+}
+
+.back-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #00ffaa;
+  color: #0f2027;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+  background-color: #00e6c3;
+  transform: scale(1.05);
+  color: #0f2027;
+}

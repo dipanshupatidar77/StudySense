@@ -1,0 +1,39 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #1f1c2c, #9a8fd1); /* Gradient navbar */
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar brand (logo/text) */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white !important;
+}
+
+/* Common style for all nav links and buttons */
+.nav-link,
+.custom-navbar .btn,
+.logout-btn,
+.btn-outline-secondary,
+.btn-outline-primary {
+  color: #f0f0f0 !important;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.05); /* light box look */
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 6px 15px;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect: Orange highlight for all */
+.nav-link:hover,
+.custom-navbar .btn:hover,
+.logout-btn:hover,
+.btn-outline-secondary:hover,
+.btn-outline-primary:hover {
+  background-color: #ff5722 !important; /* Bright orange */
+  color: #ffffff !important;
+  border-color: #ff5722;
+}

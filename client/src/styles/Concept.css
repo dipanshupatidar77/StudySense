@@ -1,0 +1,64 @@
+/* styles/Concept.css */
+
+.concept-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to right, #fdfcfb, #e2d1c3); /* Premium soft gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.concept-form {
+  width: 100%;
+  max-width: 450px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /* Deeper shadow for premium depth */
+  transition: transform 0.3s ease;
+}
+
+.concept-form:hover {
+  transform: translateY(-4px);
+}
+
+.concept-form h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #f97316; /* Orange-500 for premium touch */
+  text-align: center;
+}
+
+.concept-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  transition: border-color 0.3s ease;
+}
+
+.concept-form input:focus {
+  border-color: #f97316; /* Orange focus */
+  outline: none;
+}
+
+.concept-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f97316; /* Orange-500 */
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.concept-form button:hover {
+  background-color: #ea580c; /* Orange-600 */
+}

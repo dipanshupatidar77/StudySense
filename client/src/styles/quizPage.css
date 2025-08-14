@@ -1,0 +1,18 @@
+.quiz-page {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 18px;
+  color: #4b5563;
+  margin-top: 2rem;
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
