@@ -69,7 +69,7 @@ const ChatWindow = () => {
     }
   };
 
-  // ✅ New Chat button
+  //  New Chat button
   const handleNewChat = () => {
     const welcome = {
       role: "assistant",
